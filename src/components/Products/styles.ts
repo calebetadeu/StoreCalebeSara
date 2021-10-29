@@ -13,9 +13,6 @@ export const Container=styled.div `
     border-style: hidden;
     border-top: 1rem;
     border-bottom: 2rem;
-    li{
-        list-style: none;
-    }
 }
 .infoProduct{
 
@@ -44,13 +41,26 @@ padding-left: 2rem;
     color: black;
     font-size:2rem
 }
-@media only screen and (max-width: 768px) {
+@media  screen and (max-width: 768px) {
     .ContainerProduct{
         width: 90%;
     }
-li{
-   list-style: none;
-    margin-top:-1rem ;
+.button{
+    width: 87%;
+    margin-top:1rem ;
+}
+@media only screen and (max-width: 390px) {
+
+ .imgProduct{
+    margin:0;
+    width:80%;
+    height:12rem;
+    padding-left:4.5rem;
+
+}   
+.button{
+    width:70%;
+}
 }
 
 }
