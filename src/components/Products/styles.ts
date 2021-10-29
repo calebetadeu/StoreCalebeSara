@@ -13,6 +13,9 @@ export const Container=styled.div `
     border-style: hidden;
     border-top: 1rem;
     border-bottom: 2rem;
+    li{
+        list-style: none;
+    }
 }
 .infoProduct{
 
@@ -46,9 +49,10 @@ padding-left: 2rem;
         width: 90%;
     }
 li{
-   
+   list-style: none;
     margin-top:-1rem ;
 }
+
 }
 
 `
