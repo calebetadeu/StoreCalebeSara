@@ -11,7 +11,7 @@ export default function Header() {
               
             <h2  className='headerTitle' >C+S</h2>   
                 <div className='button' >
-               <Button name='Contribuir Agora' color='red'height='3.5rem' font_size='18px' link='https://nubank.com.br/pagar/5nbfl/GUZLEPo5jA' />
+               <Button name='Contribuir Agora' color='red'height='3.5rem' font_size='18px' link={process.env.NUBANK_ACCOUNT as string } />
                 </div>
              
                 </div>
