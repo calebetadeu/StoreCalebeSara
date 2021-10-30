@@ -9,7 +9,7 @@ export const GlobalStyle=createGlobalStyle `
 }
 
 :root{
-  --white:#FFFFFF;
+  --white:#FFFFF2;
 
   --gray-100:#e6dfd8;
   --gray-300:#a8a8b3;
