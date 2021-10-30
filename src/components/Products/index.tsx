@@ -36,14 +36,14 @@ export default function Products({name,image,alt,price,buttonBuyNow}:ProductsPro
                       color='#561a86' 
                       height='3.5rem'
                        font_size='18px'
-                       link={process.env.WATHSAPP_TALK as string}
+                       link=''
                        /></div> 
                        <div className='button' >
                            <Button name='Ajudar Com Outro Valor'
                         color='#2e3ca8'
                          height='3.5rem'
                           font_size='18px'
-                          link={process.env.NUBANK_ACCOUNT as string}
+                          link=''
                           /></div> 
                     </section>
                     
