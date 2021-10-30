@@ -23,20 +23,23 @@ export default function Products({name,image,alt,price,buttonBuyNow}:ProductsPro
                     </section>
                     <section>
                        
-                       <div className='button' >  <Button 
+                       <div className='button' >
+                             <Button 
                        name='Comprar Agora' 
                        color='green' 
                        height='3.5rem' 
                        font_size='18px' 
                        link={buttonBuyNow}
                        /></div>
-                      <div className='button' > <Button name='Cartão de Crédito' 
+                      <div className='button' >
+                           <Button name='Cartão de Crédito' 
                       color='#561a86' 
                       height='3.5rem'
                        font_size='18px'
                        link={process.env.WATHSAPP_TALK as string}
                        /></div> 
-                       <div className='button' ><Button name='Ajudar Com Outro Valor'
+                       <div className='button' >
+                           <Button name='Ajudar Com Outro Valor'
                         color='#2e3ca8'
                          height='3.5rem'
                           font_size='18px'

@@ -6,7 +6,7 @@ export const Container=styled.div `
    background: rgb(248, 244, 244);
     height: 40rem;
     width:22rem;
-    display:flex;
+    display:inline-block;
     align-items: center;
     margin: 5.5rem auto;
     border-radius:8px 8px 5px;
@@ -44,6 +44,16 @@ padding-left: 2rem;
 @media  screen and (max-width: 768px) {
     .ContainerProduct{
         width: 90%;
+    background: rgb(248, 244, 244);
+    height: 40rem;
+    width:22rem;
+    display:flex;
+    align-items: center;
+    margin: 5.5rem auto;
+    border-radius:8px 8px 5px;
+    border-style: hidden;
+    border-top: 1rem;
+    border-bottom: 2rem;
     }
 .button{
     width: 87%;
