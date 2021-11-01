@@ -15,7 +15,7 @@ export const Container=styled.div `
     border-bottom: 2rem;
 }
 .infoProduct{
-
+    width: 100%;
     height:40rem;
     margin: 0;
     padding-top: 0;
