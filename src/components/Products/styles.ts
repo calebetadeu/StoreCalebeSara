@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container=styled.div ` 
   width: 100%;
+  display: inline-flex;
+  align-content: flex-start;
   .ContainerProduct{
    background: rgb(248, 244, 244);
     height: 40rem;
@@ -42,12 +44,14 @@ padding-left: 2rem;
     font-size:2rem
 }
 @media  screen and (max-width: 768px) {
+    display: inline-block;
     .ContainerProduct{
         width: 90%;
     background: rgb(248, 244, 244);
     height: 40rem;
     width:22rem;
     display:flex;
+    margin-left: 2rem;
     align-items: center;
     margin: 5.5rem auto;
     border-radius:8px 8px 5px;

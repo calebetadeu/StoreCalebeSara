@@ -15,7 +15,9 @@ export const GlobalStyle=createGlobalStyle `
   --gray-300:#a8a8b3;
   --gray-800:#29292e;
   --gray-900:#121214;
-
+  --buttonNow:#25A18E;
+  --buttonCredit:#00A5CF ;
+  --buttonWathsapp:#807182;
   --cyan-500:#61dafb;
   --yellow-500:#eba417;
 }
